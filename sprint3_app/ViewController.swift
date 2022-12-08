@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     private func getCounterLabelText() -> String {
                 return counterLabelBaseText + String(counter)
             }
+    
     @IBAction func counterButtonClicked() {
         counter += 1
         counterLabel.text = getCounterLabelText()
